@@ -3,6 +3,15 @@
 
 2.[Literature Survey](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Literature-Survey)
 
+**Abstract**
+Memories are the crucial blocks in VLSI system 
+design. The performance, power, and area of memories should 
+be carefully inspected before fabrication of the system. In digital 
+processors, we use SRAM cells in the memory cache for faster 
+performance and low power consumption. 6T SRAM cell is 
+designed with Synopsys Design Compiler using 28nm CMOS 
+technology
+
 **Literature Survey**
 The number of transistors on an IC becomes twice 
 every 18 months, according to Moore's law. For the modern 
