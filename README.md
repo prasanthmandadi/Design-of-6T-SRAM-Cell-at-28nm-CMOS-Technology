@@ -86,6 +86,8 @@ Read operation of 6T SRAM CELL will be done by making the word line high. By mak
 
 ![WRITE _SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921457-b0c4e9d0-06ca-4fbd-8036-314bba2b5017.JPG)
 
+Write operation of 6T SRAM CELL will be performed by making the word line is high. If storage node Q is 0, then pre-charge BL to logic high and BLB to logic zero. Access transistors will be turned on by making the word line high. Storage node Q charges through the access transistor and flips the data stored in Q. Storage node QB will be discharged through the access transistor N4 via bit line bar and changes the stored data from 1 to 0. In the other scenario BL has to precharged to zero and BLB to logic high.
+
 **NETLIST** 
 
 **WAVEFORMS**
@@ -94,9 +96,13 @@ Read operation of 6T SRAM CELL will be done by making the word line high. By mak
 
 ![Read waveform](https://user-images.githubusercontent.com/85571828/155921617-c51a0400-c33a-4c4d-b319-009fa9e74dc7.JPG)
 
+In this Read operation Transient analysis waveform we can observe whenever the WWL is high, BL and BLB are changing. The logic 1 at storage node Q is charging the capacitor connected to BL and logic 0 at storage node Q is discharging the capacitor connected to BLB (vice versa). BL and BLB are also opposite to each other. BL is following Q and BLB is following the QB.
+
 **Waveform of Write Operation**
 
 ![write Waveform](https://user-images.githubusercontent.com/85571828/155921677-254a6cc9-87a8-4354-bd78-bbe57cf539fc.JPG)
+
+In this Write operation Transient analysis waveform we can observe whenever the WWL is high, Q and QB are changing. Input pulse waves are given to BL and BLB and observed both storage nodes Q and QB. The BL logic high making storage node Q as logic 1 and BLB logic low making storage node QB as logic 0 (vice versa). Q and QB are opposite to each other
 
 
 
