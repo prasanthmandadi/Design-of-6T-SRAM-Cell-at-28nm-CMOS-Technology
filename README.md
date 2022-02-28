@@ -1,19 +1,4 @@
 # Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology
-1.[ABSTRACT](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#ABSRACT)
-
-2.[LITERATURE SURVEY](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#LITERATURE-SURVEY)
-
-3.[WORKING](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#WORKING)
-
-4.[DESIGN](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#DESIGN)
-
-5.[NETLIST](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#NETLIST)
-
-6.[WAVEFORMS](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#WAVEFORMS)
-
-7.[ACKNOWLEDGEMENT](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#ACKNOWLEDGEMENT)
-
-8.[REFERENCES](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#REFERENCES)
 
 **ABSRACT**
 
