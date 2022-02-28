@@ -61,39 +61,44 @@ is the word line is low so that the bit lines will be disconnected from
 the latch. The bit stored in the latch is in the hold under VDD and 
 GND's voltage in this situation.
 
-6T SRAM CELL 
-
+**6T SRAM CELL** 
 
 ![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg) 
                                                                                                  
 
-Shematic Representation of SRAM CELL
+**Shematic Representation of SRAM CELL**
 
 ![SRAM_CELL_SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921219-55d5698b-ae1d-4b50-847b-e86b8e0566f4.JPG)
 
-Symbol representation of SRAM CELL
+**Symbol representation of SRAM CELL**
 
 ![SRAM_CELL_SYMBOL](https://user-images.githubusercontent.com/85571828/155921283-46a531c4-b11f-4c63-ba91-731433131cc1.JPG)
 
-Schematic Represenation of Read Operation
+
+**Schematic Represenation of Read Operation**
 
 ![READ SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921387-5bd706a7-57f7-4538-be47-18fa45c40746.JPG)
 
-Schematic Represenation of Write Operation
+Read operation of 6T SRAM CELL will be done by making the word line high. By making the WWL high the two access transistors will be turned on. Both the BITLINE and BITLINE -BAR has to be pre-charged to observe the data which is stored in storage latch. If the storge node Q is high, then the capacitor connected to BITLINE will remain same and at the same time the capacitor connected to BITLINE-BAR will be discharged. By observing this we can find the stored data.
+
+
+**Schematic Represenation of Write Operation**
 
 ![WRITE _SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921457-b0c4e9d0-06ca-4fbd-8036-314bba2b5017.JPG)
 
-NETLIST 
+**NETLIST** 
 
-Waveforms
+**WAVEFORMS**
 
-Waveform of read Operation
+**Waveform of read Operation**
 
 ![Read waveform](https://user-images.githubusercontent.com/85571828/155921617-c51a0400-c33a-4c4d-b319-009fa9e74dc7.JPG)
 
-Waveform of Write Operation
+**Waveform of Write Operation**
 
 ![write Waveform](https://user-images.githubusercontent.com/85571828/155921677-254a6cc9-87a8-4354-bd78-bbe57cf539fc.JPG)
+
+
 
 
 
