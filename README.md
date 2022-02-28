@@ -1,6 +1,6 @@
 # Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology
 [Abstract](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/blob/main/Abstract)
-[Literature Survey](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Literature Survey)
+[Literature Survey](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Literature-Survey)
 **Literature Survey**
 The number of transistors on an IC becomes twice 
 every 18 months, according to Moore's law. For the modern 
