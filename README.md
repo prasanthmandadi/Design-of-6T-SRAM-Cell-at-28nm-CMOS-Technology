@@ -43,7 +43,7 @@ more when compared to DRAM cells. Though meticulously
 designed SRAMs are comparatively a little bit high in cost, 
 functionality is cost-effective.
 
-**Working**
+****
 
 Two access transistors and two cross-coupled inverters are 
 present in the traditional 6- Transistor SRAM cell. The latch is 
@@ -60,6 +60,5 @@ will be attached to the latch then operations of read and write will be done. Th
 is the word line is low so that the bit lines will be disconnected from
 the latch. The bit stored in the latch is in the hold under VDD and 
 GND's voltage in this situation. Figure 
-![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg)
-6T SRAM CELL 
+![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg)6T SRAM CELL 
 
