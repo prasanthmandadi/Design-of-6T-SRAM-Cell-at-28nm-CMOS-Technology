@@ -106,7 +106,7 @@ Write operation of 6T SRAM CELL will be performed by making the word line is hig
 
 **NETLIST** 
 
-https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/tree/main/Netlist#NETLIST
+[NETLIST](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/tree/main/Netlist)
 
 **WAVEFORMS**
 
