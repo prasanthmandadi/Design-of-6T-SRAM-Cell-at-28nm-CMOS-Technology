@@ -6,6 +6,7 @@
 3.[Working](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Working)
 
 **Abstract**
+
 Memories are the crucial blocks in VLSI system 
 design. The performance, power, and area of memories should 
 be carefully inspected before fabrication of the system. In digital 
@@ -14,7 +15,8 @@ performance and low power consumption. 6T SRAM cell is
 designed with Synopsys Design Compiler using 28nm CMOS 
 technology
 
-**Literature Survey**
+**LITERATURE SURVEY**
+
 The number of transistors on an IC becomes twice 
 every 18 months, according to Moore's law. For the modern 
 System on Chip (SoC) technology, design is essential for
@@ -44,6 +46,8 @@ designed SRAMs are comparatively a little bit high in cost,
 functionality is cost-effective.
 
 ****
+**WORKING**
+
 
 Two access transistors and two cross-coupled inverters are 
 present in the traditional 6- Transistor SRAM cell. The latch is 
@@ -103,6 +107,30 @@ In this Read operation Transient analysis waveform we can observe whenever the W
 ![write Waveform](https://user-images.githubusercontent.com/85571828/155921677-254a6cc9-87a8-4354-bd78-bbe57cf539fc.JPG)
 
 In this Write operation Transient analysis waveform we can observe whenever the WWL is high, Q and QB are changing. Input pulse waves are given to BL and BLB and observed both storage nodes Q and QB. The BL logic high making storage node Q as logic 1 and BLB logic low making storage node QB as logic 0 (vice versa). Q and QB are opposite to each other
+
+**ACKNOWLEDGEMENT**
+
+1. Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd
+2. https://hackathoniith.in/ 
+
+**REFERENCES**
+[1] P. Chodankar, I. Suryavanshi, and A. Gangad, "Low power SRAM 
+design using independent gate FinFET at 30nm technology," 2014 First 
+International Conference on Computational Systems and 
+Communications (ICCSC), Trivandrum, 2014, pp. 52-56.
+[2] Sanjana S R, Balaji Ramakrishna s, Smaiksha, Roohila Banu, Prateek 
+Shubham "Design and performance analysis of 6T SRAM cell in 22nm 
+CMOS and FinFET technology Nodes" DOI 10.1109/ICRAECT, 2017.
+[3] H. Afzali-Kusha, A. Shafaei, and M. Pedram, "A 125mV 2ns-accesstime 16Kb SRAM design based on a 6T hybrid TFET-FinFET cell," 
+2018 19th International Symposium on Quality Electronic Design 
+(ISQED), Santa Clara, CA, USA, 2018, pp. 280-285, doi: 
+10.1109/ISQED.2018.8357301.
+[4] A. Bhaskar, "Design and analysis of low power SRAM cells," 2017 
+Innovations in Power and Advanced Computing Technologies (iPACT), 2017, pp. 1-5, doi: 10.1109/IPACT.2017.8244888.
+[5] Rohit kumar shah, Inamul Hussain, Manish Kumar “Performance 
+analysis of 6T SRAM Cell in 180nm CMOS Technology"
+
+
 
 
 
