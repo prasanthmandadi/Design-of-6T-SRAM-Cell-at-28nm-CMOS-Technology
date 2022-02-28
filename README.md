@@ -63,3 +63,33 @@ GND's voltage in this situation.Figure
 ![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg) 
                                                                                                   **6T SRAM CELL**
 
+Shematic Representation
+![SRAM_CELL_SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921219-55d5698b-ae1d-4b50-847b-e86b8e0566f4.JPG)
+
+Symbol representation of SRAM CELL
+![SRAM_CELL_SYMBOL](https://user-images.githubusercontent.com/85571828/155921283-46a531c4-b11f-4c63-ba91-731433131cc1.JPG)
+
+Schematic Represenation of Read Operation
+
+![READ SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921387-5bd706a7-57f7-4538-be47-18fa45c40746.JPG)
+
+Schematic Represenation of Write Operation
+
+![WRITE _SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921457-b0c4e9d0-06ca-4fbd-8036-314bba2b5017.JPG)
+
+NETLIST 
+
+Waveforms
+
+Waveform of read Operation
+
+![Read waveform](https://user-images.githubusercontent.com/85571828/155921617-c51a0400-c33a-4c4d-b319-009fa9e74dc7.JPG)
+
+Waveform of Write Operation
+
+![write Waveform](https://user-images.githubusercontent.com/85571828/155921677-254a6cc9-87a8-4354-bd78-bbe57cf539fc.JPG)
+
+
+
+
+
