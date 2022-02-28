@@ -63,10 +63,12 @@ GND's voltage in this situation.Figure
 ![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg) 
                                                                                                   **6T SRAM CELL**
 
-Shematic Representation
+Shematic Representation of SRAM CELL
+
 ![SRAM_CELL_SCHEMATIC](https://user-images.githubusercontent.com/85571828/155921219-55d5698b-ae1d-4b50-847b-e86b8e0566f4.JPG)
 
 Symbol representation of SRAM CELL
+
 ![SRAM_CELL_SYMBOL](https://user-images.githubusercontent.com/85571828/155921283-46a531c4-b11f-4c63-ba91-731433131cc1.JPG)
 
 Schematic Represenation of Read Operation
