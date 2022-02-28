@@ -59,6 +59,8 @@ are ON when WL=1, that is the word line is high, so the bit lines
 will be attached to the latch then operations of read and write will be done. The access transistors are said to be OFF when WL=0; that 
 is the word line is low so that the bit lines will be disconnected from
 the latch. The bit stored in the latch is in the hold under VDD and 
-GND's voltage in this situation. Figure 
-![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg)6T SRAM CELL 
+GND's voltage in this situation.
+                      6T SRAM CELL
+Figure 
+![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg) 
 
