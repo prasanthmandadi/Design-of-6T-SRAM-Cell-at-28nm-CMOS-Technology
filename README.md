@@ -1,11 +1,21 @@
 # Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology
-1.[Abstract](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/blob/main/Abstract)
+1.[ABSTRACT](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/blob/main/Abstract)
 
-2.[Literature Survey](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Literature-Survey)
+2.[LITERATURE SURVEY](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#LITERATURE-SURVEY)
 
-3.[Working](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Working)
+3.[WORKING](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#WORKING)
 
-**Abstract**
+4.[DESIGN](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#DESIGN)
+
+5.[NETLIST](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#NETLIST)
+
+6.[WAVEFORMS](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#WAVEFORMS)
+
+7.[ACKNOWLEDGEMENT](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#ACKNOWLEDGEMENT)
+
+8.[REFERENCES](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#REFERENCES)
+
+**ABSRACT**
 
 Memories are the crucial blocks in VLSI system 
 design. The performance, power, and area of memories should 
@@ -65,6 +75,8 @@ is the word line is low so that the bit lines will be disconnected from
 the latch. The bit stored in the latch is in the hold under VDD and 
 GND's voltage in this situation.
 
+**DESIGN**
+
 **6T SRAM CELL** 
 
 ![6t sram](https://user-images.githubusercontent.com/85571828/155920389-58ba797e-6a83-481b-9f9b-e767cc3e2cfc.jpg) 
@@ -118,13 +130,16 @@ In this Write operation Transient analysis waveform we can observe whenever the 
 design using independent gate FinFET at 30nm technology," 2014 First 
 International Conference on Computational Systems and 
 Communications (ICCSC), Trivandrum, 2014, pp. 52-56.
+
 [2] Sanjana S R, Balaji Ramakrishna s, Smaiksha, Roohila Banu, Prateek 
 Shubham "Design and performance analysis of 6T SRAM cell in 22nm 
 CMOS and FinFET technology Nodes" DOI 10.1109/ICRAECT, 2017.
+
 [3] H. Afzali-Kusha, A. Shafaei, and M. Pedram, "A 125mV 2ns-accesstime 16Kb SRAM design based on a 6T hybrid TFET-FinFET cell," 
 2018 19th International Symposium on Quality Electronic Design 
 (ISQED), Santa Clara, CA, USA, 2018, pp. 280-285, doi: 
 10.1109/ISQED.2018.8357301.
+
 [4] A. Bhaskar, "Design and analysis of low power SRAM cells," 2017 
 Innovations in Power and Advanced Computing Technologies (iPACT), 2017, pp. 1-5, doi: 10.1109/IPACT.2017.8244888.
 [5] Rohit kumar shah, Inamul Hussain, Manish Kumar “Performance 
