@@ -3,6 +3,8 @@
 
 2.[Literature Survey](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Literature-Survey)
 
+3.[Working](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#Working)
+
 **Abstract**
 Memories are the crucial blocks in VLSI system 
 design. The performance, power, and area of memories should 
@@ -40,3 +42,21 @@ beyond the speeds of 250MHz. The density of SRAM cells is
 more when compared to DRAM cells. Though meticulously 
 designed SRAMs are comparatively a little bit high in cost, 
 functionality is cost-effective.
+
+**Working**
+Two access transistors and two cross-coupled inverters are 
+present in the traditional 6- Transistor SRAM cell. The latch is 
+formed with these two cross-coupled inverters. The cross-coupled 
+inverters consist of four transistors, each store 1 bit of data in 
+SRAM. This latch formed by inverters is shown in Figure 2.1. The
+word line (WL) is connected to two gate terminals of access 
+transistors. Latch inputs of the SRAM cell are bound to pass 
+transistors drain terminals of both sides. The bit line (BL) is 
+connected to one pass transistor source, and the bit line bar (BLB) is 
+connected to the source terminal of another one. Access transistors 
+are ON when WL=1, that is the word line is high, so the bit lines 
+will be attached to the latch then operations of read and write will be done. The access transistors are said to be OFF when WL=0; that 
+is the word line is low so that the bit lines will be disconnected from
+the latch. The bit stored in the latch is in the hold under VDD and 
+GND's voltage in this situation. Figure1 represents the 6T SRAM 
+cell. 
