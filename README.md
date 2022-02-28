@@ -1,5 +1,5 @@
 # Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology
-1.[ABSTRACT](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/blob/main/Abstract)
+1.[ABSTRACT](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#ABSRACT)
 
 2.[LITERATURE SURVEY](https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/edit/main/README.md#LITERATURE-SURVEY)
 
@@ -105,6 +105,8 @@ Read operation of 6T SRAM CELL will be done by making the word line high. By mak
 Write operation of 6T SRAM CELL will be performed by making the word line is high. If storage node Q is 0, then pre-charge BL to logic high and BLB to logic zero. Access transistors will be turned on by making the word line high. Storage node Q charges through the access transistor and flips the data stored in Q. Storage node QB will be discharged through the access transistor N4 via bit line bar and changes the stored data from 1 to 0. In the other scenario BL has to precharged to zero and BLB to logic high.
 
 **NETLIST** 
+
+https://github.com/prasanthmandadi/Design-of-6T-SRAM-Cell-at-28nm-CMOS-Technology/tree/main/Netlist
 
 **WAVEFORMS**
 
