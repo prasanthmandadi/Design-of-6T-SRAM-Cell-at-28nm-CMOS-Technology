@@ -1,0 +1,69 @@
+*  Generated for: PrimeSim
+*  Design library name: prasanth
+*  Design cell name: sram_cell_tb
+*  Design view name: schematic
+.lib 'saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Sun Feb 27 22:20:04 2022
+
+.global gnd!
+********************************************************************************
+* Library          : prasanth
+* Cell             : sram_cell
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt sram_cell bl blb gnd_1 q qb vdd wwl
+xm1 vdd q net7 net7 p105 w=0.4u l=0.03u nf=4 m=1
+xm0 q qb vdd vdd p105 w=0.4u l=0.03u nf=4 m=1
+xm5 q wwl bl bl n105 w=0.3u l=0.03u nf=3 m=1
+xm4 blb wwl qb qb n105 w=0.3u l=0.03u nf=3 m=1
+xm3 gnd_1 qb q q n105 w=0.4u l=0.03u nf=4 m=1
+xm2 qb q gnd_1 gnd_1 n105 w=0.4u l=0.03u nf=4 m=1
+.ends sram_cell
+
+********************************************************************************
+* Library          : prasanth
+* Cell             : sram_cell_tb
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi0 net43 net47 gnd! q qb net8 wwl sram_cell
+v1 net8 gnd! dc=1.8
+v17 qb gnd! dc=0 pulse ( 1.8 0 50p 20p 20p 5n 12n )
+v16 q gnd! dc=0 pulse ( 0 1.8 50p 20p 20p 5n 12n )
+v4 wwl gnd! dc=0 pulse ( 0 1.8 50p 20p 20p 15n 30n )
+c11 net47 gnd! c=85f ic=1.8
+c10 net43 gnd! c=85f ic=1.8
+
+
+
+
+
+
+
+
+.tran '0n' '100n' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(q) v(qb) v(wwl) v(net43) v(net47)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
